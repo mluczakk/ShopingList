@@ -1,0 +1,21 @@
+.addButton {
+  background-color: greenyellow;
+  font-size: 1em;
+  text-decoration: double;
+  transition-duration: 0.5s;
+  font-family: "Roboto", sans-serif;
+}
+
+button:active {
+  background-color: grey;
+}
+
+.inputField {
+  background-color: lightskyblue;
+  font-family: "Roboto", sans-serif;
+}
+
+.inputField:hover {
+  background-color: limegreen;
+  font-family: "Roboto", sans-serif;
+}

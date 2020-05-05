@@ -1,0 +1,59 @@
+.wrapper {
+  display: block;
+}
+.Line {
+  list-style: none;
+  display: inline-flex;
+}
+
+.item {
+  color: cyan;
+  background-color: darkcyan;
+  width: 20em;
+  border: 0.1em solid black;
+  padding: 0.1em;
+  margin: 0.2em;
+  justify-content: center;
+  transition-duration: 0.3s;
+}
+
+.itemBought {
+  color: grey;
+  background-color: darkgray;
+  text-decoration: line-through;
+  width: 20em;
+  border: 0.1em solid grey;
+  padding: 0.1em;
+  margin: 0.2em;
+  justify-content: center;
+  transition-duration: 0.3s;
+}
+
+.checkIcon {
+  margin: 0;
+  color: green;
+  background-color: #d1c75e;
+  font-size: 2em;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.checkedIcon {
+  margin: 0;
+  color: gray;
+  background-color: #d1c75e;
+  font-size: 2em;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.closeIcon {
+  color: red;
+  font-size: 2em;
+  background-color: #d1c75e;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.closeIcon:active {
+  color: darkred;
+}
